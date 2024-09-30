@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="navbar flex">
+        <img class="img" src="logospotify.svg" alt="logo-spotify">
+        <div class="middle flex">
+            <img class="img invert" src="home.svg" alt="home-logo">
+            <div class="navbar invert flex">
+                <div class="search flex gap">
+                    <div class="svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 24px; height: 24px; fill: rgb(31, 31, 31);">
+                            <path d="M10.533 1.27893C5.35215 1.27893 1.12598 5.41887 1.12598 10.5579C1.12598 15.697 5.35215 19.8369 10.533 19.8369C12.767 19.8369 14.8235 19.0671 16.4402 17.7794L20.7929 22.132C21.1834 22.5226 21.8166 22.5226 22.2071 22.132C22.5976 21.7415 22.5976 21.1083 22.2071 20.7178L17.8634 16.3741C19.1616 14.7849 19.94 12.7634 19.94 10.5579C19.94 5.41887 15.7138 1.27893 10.533 1.27893ZM3.12598 10.5579C3.12598 6.55226 6.42768 3.27893 10.533 3.27893C14.6383 3.27893 17.94 6.55226 17.94 10.5579C17.94 14.5636 14.6383 17.8369 10.533 17.8369C6.42768 17.8369 3.12598 14.5636 3.12598 10.5579Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <input type="search" id="searchbox" placeholder="SEARCH...">
+                </div>
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+        <div class="flex gap">
+            <button class="btn2 green">signup</button>
+            <button class="btn2 green">login</button>
+        </div>
+    </div>
+    <div class="container flex">
+        <div class="left">
+            <div class="svglib flex">
+                <img class="invert flex" src="library.svg" alt="lib-logo">
+                Your Library
+            </div>
+            <div class="playlist">
+                <div class="footer flex">
+                    <div data-testid="left-sidebar-legal-links">
+                        <div>
+                            <div>
+                                <a href="https://www.spotify.com/in-en/legal/">
+                                    <span>Legal</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                                    <span>Safety &amp; Privacy Center</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                                    <span>Privacy Policy</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                                    <span>Cookies</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                                    <span>About Ads</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.spotify.com/in-en/accessibility/">
+                                    <span>Accessibility</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <h1>Spotify Songs</h1>
+            <div class="songs flex">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e0256d00d2f0c39603d9c295aab" alt="Peaky Blinder"
+                        class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                        srcset="https://i.scdn.co/image/ab67616d00001e0256d00d2f0c39603d9c295aab 150w, 
+                                https://i.scdn.co/image/ab67616d00001e0256d00d2f0c39603d9c295aab 300w, 
+                                https://i.scdn.co/image/ab67616d0000b27356d00d2f0c39603d9c295aab 320w, 
+                                https://i.scdn.co/image/ab67616d0000b27356d00d2f0c39603d9c295aab 640w"
+                        sizes="(min-width: 1280px) 232px, 192px" loading="lazy" draggable="false" aria-hidden="false">
+                  <img class="playbutton"src="playbutton.svg" alt="playbutton">
+                    <div class="f">Gangsta's Paradise</div>
+                    <span class="card-text">(From "PEAKY BLINDERS")</span>
+                    <div class="card-text">song • otnicka, Duke Luke</div>
+                </div>
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9" alt="ANIMAL"
+                        class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                        srcset="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9 150w, 
+                                https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9 300w, 
+                                https://i.scdn.co/image/ab67616d0000b2735f3ede47954a93aa03efe5f9 320w, 
+                                https://i.scdn.co/image/ab67616d0000b2735f3ede47954a93aa03efe5f9 640w"
+                        sizes="(min-width: 1280px) 232px, 192px">
+                   <img class="playbutton"src="playbutton.svg" alt="playbutton">
+                    <div class="f">Arjan Vailly</div>
+                    <span class="card-text">(From "ANIMAL")</span>
+                    <div class="card-text">song • Manan Bharadwaj, Bhupinder Bappal</div>
+                </div>
+                <div class="card">
+                    <img srcset="https://i.scdn.co/image/ab67616d00001e02f47f3f44f4a7311a66c7a770 150w,
+             https://i.scdn.co/image/ab67616d00001e02f47f3f44f4a7311a66c7a770 300w,
+             https://i.scdn.co/image/ab67616d0000b273f47f3f44f4a7311a66c7a770 320w,
+             https://i.scdn.co/image/ab67616d0000b273f47f3f44f4a7311a66c7a770 640w"
+             sizes="(min-width: 1280px) 232px, 192px"
+             alt="Yeh Raaten Yeh Mausam">
+          <img class="playbutton"src="playbutton.svg" alt="playbutton">
+                    <div class="f">Yeh Raaten Yeh Mausum</div>
+                    <span class="card-text">(From "Sanam")</span>
+                    <div class="card-text">song • Sanam</div>
+                </div>
+            </div>
+            <div class="footbar"> 
+               <button class="foot prevb"> <img src="next.svg" alt="next"></button>
+               <button class="foot playb"> <img src="playbtn2.svg" alt="playbutton"></button>
+                <button class="foot nextb"> <img src="prev.svg" alt="prev"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="spotify.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    margin: 0; 
+
+   
+
+}
+
+.img {
+    max-width: 150px;
+    margin: 10px;
+}
+
+.navbar {
+    margin-top: 10px;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.btn1 {
+    max-height: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(101, 101, 101, 0.372);
+    font-size: 1.1rem;
+    color: rgba(166, 163, 163, 0.273);
+}
+
+#search-button {
+    border-radius: 70px;
+    border: none;
+    font-size: 1.1rem;
+    width: 150px;
+}
+
+#searchbox {
+    width: 500px;
+    border-radius: 30px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    padding: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 25%;
+    border: none;
+    border-radius: 10px;
+    background-color: #212121;
+    max-height: 100%;
+}
+
+.btn2 {
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 100px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.svg {
+    margin-top: 10px;
+}
+
+.svglib {
+    display: flex;
+    align-items: center;
+}
+
+.svglib img {
+    margin-right: 10px;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    color: #b3b3b3;
+}
+
+.right {
+    padding: 12px;
+    width: 75%;
+    background-color: #212121;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.f {
+    font-size: 1.45rem;
+}
+
+.song {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+    height: 100vh;
+}
+
+.card {
+    background-color: black;
+    padding: 12px;
+    margin: 5px; 
+    max-width:250px;
+    box-sizing: border-box;
+
+}
+.playbutton{
+    display:block;
+    max-width:50px;
+    max-height:50px;
+    justify-content:flex-end;
+    opacity:0;
+    visibility: hidden;
+    margin-left: auto;
+ 
+
+    
+}
+.card:hover .playbutton{
+    visibility:visible;
+    opacity:1;
+}
+.footbar{
+    margin-top:auto;
+    width:100%-10px;
+    padding:20px;
+    background-color: #1cd760;
+    color:black;
+    display:flex;
+    justify-content:center;
+
+}
+
+.foot{
+    background-color: #1cd760;
+    border:none;
+}
